@@ -1,4 +1,5 @@
 # Reddit Bully Detection
+__Made at HackDavis__
 
 Algorithm that uses natural language processing (NLP) and machine learning (ML) to 
 determine if a comment made on social media (specifically reddit).
