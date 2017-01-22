@@ -1,0 +1,583 @@
+/opt/conda/lib/python3.5/site-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+
+Querying DB...
+
+Building Corpora
+
+Fitting TF-IDF and Classifier
+
+Accuracy on held-out data:  66.51 %
+
+Folding held-out data back into the training set
+
+The 30 most informative words for predicting controversiality on reddit:
+
+Feature 1 : "downvoted" (Appears 129 times controversiality 16 not controversiality
+Examples:
+1 : you seriously downvoted me? I wasn't trying to be a dick, I was informing you so you know the proper terminology
+2 : Get ready to be downvoted in 3...2....1
+3 : Because it's an unpopular opinion, and unpopular opinions get downvoted on this subreddit.
+4 : You asked why you get downvoted and now youre butthurt you get an answer. Here, take another one.
+5 : i think they found you, you got downvoted a few times ; )
+6 : So when is this gonna get downvoted? Because shit like this needs to be downvoted (y)
+7 : Not sure why you're being downvoted - where's the aussie sense of humorEdit: cunts are fucked
+8 : Kinda sad you got downvoted for giving an honest answer.
+9 : Person(s) with multiple accounts downvoted me.
+10 : No, people downvoted him for being a lying little bitch.
+11 : You've been downvoted by a bunch of young people who don't realize how awesome the 80s were.
+12 : Someone came in here and downvoted every comment, so I just re-upvoted you all, because fuck that guy.
+13 : Don't know who downvoted you. It's an interesting and relevant question. Edit. Clearly it was a blip. Oh well.
+14 : You're being downvoted because you obviously missed the point, not because of your opinion.
+15 : You sir are being downvoted by the Bulls fans lololol
+16 : Why is he getting downvoted hes got an opinion and it adds to the depth of the convo.
+17 : Came here to say the same and expected to get downvoted into oblivion.  So glad this is being received well!
+18 : People need to stop crying about being downvoted
+19 : I downvoted only this comment because of the bitchiness.
+20 : Guy is getting downvoted for answering the question in the thread? Stay classy reddit.
+
+Feature 2 : "cops" (Appears 202 times controversiality 32 not controversiality
+Examples:
+1 : It really isn't small percentage though.  I read about cops killing people's pets multiple times per week.
+2 : All cops are crazed murderers. But not all blacks are crazed rioters? Am I getting that right?
+3 : Just a few more bad apples. Why do we call cops "pigs"? At this rate we should call them cider.
+4 : I don't agree with the riots, but these six cops got what they deserved. You can't accidentally sever someone's spine.
+5 : At this rate Cancun is just going to be full of cops and we can nuke the island and live happily ever after.
+6 : The cops knuckles, batons, tasers, car fenders and the jail bars had a few more questions for them.
+7 : No because you see giving cops benefit of the doubt in any situation is racism.
+8 : These cops deserve to die.
+9 : lol It is like they don't even care that we know how crooked and lawless cops are at this point.
+10 : Yeah poor cops, it sucks how cops are being persecuted in this country.
+11 : Don't worry you can't piss me off I'm high :) Also I know a lot of cops believe that.
+12 : Dont be such a child.  Bad cops are the minority.
+13 : Most cops couldn't spell irony
+14 : Lock all those cops up and throw away the key.
+15 : Or like telling cops not to shoot black people, amirite?
+16 : Black cops. Bad time to report problems in the black community and cops at the same time.
+17 : All the cops charged are either Hispanic or Black. Lol.
+18 : The amount of people that die by cops is unreal.
+19 : These cops have gone too far.
+20 : &gt;99/100 they're out to help you.You maybe, but 99/100 times I dealt with cops they weren't doing a thing in my favor.
+
+Feature 3 : "downvotes" (Appears 69 times controversiality 4 not controversiality
+Examples:
+1 : I'm going to disable downvotes for the time being. Sucks, but otherwise good posts could end up sinking
+2 : You love the downvotes don't you
+3 : how'd you get those wheels?Wtf are downvotes for? It's a 2012+ hatch without bbs wheels
+4 : I'm hoping to be using these as remote play boxes for Xbox oneEdit: odd thing to get downvotes for
+5 : thank you siredit: downvotes for saying thank you, never change reddit..
+6 : mentioning downvotes is the easiest way to get more of them
+7 : This is the most downvotes I have ever seen on a comment
+8 : I wouldn't have complained about unfair downvotes in the first place if it wasn't for unfair downvotes. :)
+9 : I'll take the downvotes with you. Seems like we got a bunch of anti-le FUCKS in here
+10 : :DEdit - your downvotes makes me giggle even harder, Titan
+11 : &gt;before the anti-bike crowd gets too excited and downvotes me to Boliviadon't get sodium chloride on us please
+12 : I thank you for thanking mewonder why I've got downvotes though
+13 : Lol at getting downvotes for your opinion. Lebron fans are something else man
+14 : I'll let your downvotes speak for themselves.
+15 : Apple disrupted the market just as much as SpaceX ...good downvotes guys.
+16 : Hey man you got some downvotes  you might wanna use your skill to fix that :^)
+17 : I swear it's like Crips vs Bloods with the upvotes and downvotes in this thread.
+18 : why do you care about your stupid votes anyway, you got your answer. Also, bitching about downvotes usually only nets more downvotes.
+19 : Of course in a thread about saying why we dislike artists there are downvotes for saying why people dislike an artist. Good job guys. Kendrick is overrated as fuck.
+20 : Same time of person who thinks that Reddit downvotes mean that they're right/smarter than everyone else. (Not that down/upvotes mean anything IRL, but you get what I'm saying)
+
+Feature 4 : "police" (Appears 393 times controversiality 67 not controversiality
+Examples:
+1 : Only those defending the police for some irrational reason.
+2 : God forbid someone make a joke, the fun police has arrived!
+3 : Running away from the police is not probable cause?
+4 : Typical police in turkey with no manners or whatsoever.
+5 : If you wanted the protestors beaten, just have the police intervene
+6 : So are we supposed to believe the police now?
+7 : I dont understand why the riot police are just standing there for so long. Go do your job and beat their ass.
+8 : "That's some great police work there, Lou."
+9 : Did he smash the police car like a fucking moron, and get video taped while doing it?
+10 : Maybe smashing a police car was the stupid act here.
+11 : Bomb and drug sniffing.     That's a justifiable use of police K9s
+12 : Without the police shooting innocent minorities for fun though.
+13 : &gt; If they were burning down police stations You mean committing mass suicide?
+14 : Fuck tha police comin straight from the underground.
+15 : You're on /r/ProtectAndServe, police officers can do nothing wrong
+16 : Hopefully this stops the police narrative but im sure it wont.
+17 : Protestors should burn down the police department, not loot from genuine business in the area
+18 : Yes because it was well-documented by media and admitted to by police and the city.
+19 : There was also an article about how Grey had injured himself in order to sue and extort the police department.
+20 : It isn't the original incidents which bother me most.  It's the police response afterward that is unambiguously wrong.
+
+Feature 5 : "pets" (Appears 28 times controversiality 3 not controversiality
+Examples:
+1 : I do want to see pets
+2 : I think Valve knows the game is already stagnant. After this we will see more pets for sale. $$$
+3 : I play dota to play dota. Paying for things like pets and even cosmetics in general is beyond my belief.
+4 : Yeah. If people did play with pets they'd know that about 90% of the time it's always offscreen.
+5 : I logged in to post this. At least give us the option to disable pets AND cosmetics.
+6 : My mistake, they still don't make great pets though.
+7 : Adding pets was one of the stupidest idea Valve had :-(, just remove them
+8 : I like CM's dog a lot. But I think there shouldn't be any more pets other than her dog in the game.
+9 : It really isn't small percentage though.  I read about cops killing people's pets multiple times per week.
+10 : They added pets like 3 months ago.You didn't honestly think we'd only get one, did you?
+11 : kinda banning hero mods for being distractive then adding pets for 50 lvl compendium. is this a joke?
+12 : I'm very manly and I think pets are the new Hitler.
+13 : "Dude pets are LITERALLY the worst thing to ever happen to dota" -Some guy who will have 12 pets in a month and praise valve later.
+14 : [here](http://dota2nohats.neocities.org)Now quit bitching. The majority of the community wants pets and you're just sitting in reddit crossing your arms and crying.
+15 : Well, i dont want to see a million pets so this will be the first TI where i wont be buying the compendium.I know it will happen regardless, but, fuck that ugly pet thingy.
+16 : also using an istick 50w im babying it but seeing all these posts about problems with it im really scared about what could happen with pets and other people living in the house
+17 : My dog cost $700 from a breeder. It was a mini dachshund. My dog before that was a pug dog that cost $1000. It was a pure breed with papers. I never hear of anyome getting pets for free in Australia
+18 : They'll have a remove pets button put in IMO. It only makes sense. However I like the idea of having a cute pet because I've been playing DotA for 10 years and adding something cute and fun will keep it interesting.
+19 : Yep. Parrot owners who let their bird get this close to their other pets are a special brand of stupid. They are more than capable of snapping a 1/2" dowel in half. They will rip Fluffy's eye out if they take the notion.
+20 : The largest drive for people to get cosmetics is to show them off to their friends and impress their enemies.  If you add the option to turn off pets no one will want them because who knows if they can even see your pet?
+
+Feature 6 : "grooveshark" (Appears 8 times controversiality 0 not controversiality
+Examples:
+1 : Do you think grooveshark users was unaware of this or whats your point?
+2 : RDIO rep already tryin to swoop the grooveshark fans.. low man. grooveshark was better than RDIO by far.
+3 : never heard of grooveshark before so I am less gutted than the rest of you.
+4 : This is fucking stupid... grooveshark had some of the most diverse music available... I hope we get a chance to recover our playlists at least...
+5 : So, they make it sound like grooveshark was giving nothing to anyone but themselves?  If that's the case, no shit they got shut down.  You can't spend years fucking everyone without consequences.
+6 : Not fully true. I used to work with one of the founders of grooveshark and they pretty much kept every dollar in an account and when they would get sued they would pay them what was in the account. That's mainly why they lasted so long. I would imagine they were just sick of all the legal battles and didn't see an end in sight.
+7 : I've met a bunch of people that work for grooveshark on the higher levels. They're attitude about licensing was rather cocky. "We"ll just host all this shit illegally then ask for permission later" was their mantra, thinking that they'd more or less force the hands of the industry to accept them, but we see how that worked out.
+8 : Losing your grooveshark discoveries is completely your fault. The writing has been on the wall for a long time that it was going down as well as its legal battle. There was plenty damn warning given to backup your shit.**added below**http://www.reddit.com/r/technology/comments/340hsl/grooveshark_faces_736_million_in_copyright_damages/  http://www.reddit.com/r/grooveshark/comments/33zh2z/grooveshark_faces_750_meellion_piracy_payout/  http://www.reddit.com/r/POLITIC/comments/30174d/riaa_bites_grooveshark_with_record_google/  7 months - http://www.reddit.com/r/entertainment/comments/2hwrvz/grooveshark_employees_are_guilty_of_copyright/  7 months - http://www.reddit.com/r/grooveshark/comments/2hv4qu/breaking_grooveshark_found_guilty_of_massive/  10 months - http://www.reddit.com/r/startups/comments/29oa3n/rumor_anonymous_employee_alleges_trouble_at/  10 months - http://www.reddit.com/r/webdev/comments/29mrmp/major_troubles_at_grooveshark/  2 years - http://www.reddit.com/r/Android/comments/z4mkt/grooveshark_taken_off_google_play_store_again/  3 years - http://www.reddit.com/r/Android/comments/gsxtv/get_ready_grooveshark_promises_a_fight_to_the/  3 years - http://www.reddit.com/r/Music/comments/o8zfy/all_four_major_record_labels_are_now_suing/  3 years - http://www.reddit.com/r/technology/comments/o5lut/all_major_labels_are_suing_grooveshark/  3 years - http://www.reddit.com/r/grooveshark/comments/milci/grooveshark_faces_massive_copyright_infringement/  4 years - http://www.reddit.com/r/Android/comments/gjvta/wtf_grooveshark_was_kicked_from_the_android_market/  4 years - http://www.reddit.com/r/WeAreTheMusicMakers/comments/g8gg5/whats_the_deal_with_grooveshark_why_do_they_pay/  4 years - http://www.reddit.com/r/cyberlaws/comments/gszu5/google_removes_grooveshark_app_from_market/
+
+Feature 7 : "valve" (Appears 30 times controversiality 7 not controversiality
+Examples:
+1 : Dunno about you but I'm definitely not gonna buy it because valve didn't even bother to add any new stuff.
+2 : it was valve u shit
+3 : with the recent paid mods fiasco, its no surprise valve is doing this...they have really turned to the dark side.
+4 : and they will make even more this year, valve makes money not video games
+5 : Why are teams associating themselves with individuals whom valve openly said they don't want organizations dealing with...
+6 : "Dude pets are LITERALLY the worst thing to ever happen to dota" -Some guy who will have 12 pets in a month and praise valve later.
+7 : It's still valves choice to follow default policy in exceptional cases. Mostly because valve gives not a single fuck about their users.
+8 : Well at this rate with how much people are defending valve and bethesda we will have paid mods back in a matter of months. Good job guys.
+9 : Hahahhahahahaaha.Where are the guys who said tgey would buy the compendium even if it had no rewards just to support the scene?Looks like valve called you guys out.
+10 : Can valve please remove that necro set trail or make it optional? Every time I see it I feel like Im getting ganked by the enemy team with a radiance, its annoying.
+11 : Wtf?? How the hell is this shit gets upvotes while the person above him gets downvotes? So, if valve gives shitty remodel (tattoo), it's the voter's fault for voting for the hero?? Really??
+12 : Definitely arc warden themed. We already knew he was probably next on the list though for heroes released. The real question is how far will valve go before we riot demanding arc wardens release?
+13 : Some games will and some won't. Witcher 3 devs said they wouldn't allow paid mods before valve went back on that idea.Stop complaining and taking away people's opportunities and let the market decide.
+14 : To all the dota2 redditor.Let's show valve that we wont buy this shit or act like we dont care about this shit. So they will seduce us more or maybe give a discount to the things. Valve will always read reddit for their resource.
+15 : This is way better than DAC and no one has seen the items yet I suspect people such as yourself will buy a compendium once the cosmetics have been revealed and besides the goals for TI4 were also a bit meh for the most part.People want hats and valve is giving people hats.
+16 : &gt;gets access to entire gameplay experience for absolutely free with no questions asked&gt;the game is literally p2w capitalist garbage full of cash grabbing clutter when valve uses a common tactic for making money off of purely cosmetic minor featuresthis subreddit sometimes tho
+17 : I don't see a problem, I think that the more ridiculous and over the top things get the more fun the game is.I do see how some people can have a problem with it, and as long as valve have an option for those people to "disable pets" so they can't see them, then it's fine. This goes for any other ridiculous cosmetic stuff added later.
+18 : Not enough said. You need to draw the line in the sand somewhere, I think giving an inch on disabling any sorts of cosmetics makes the situation too messy. Why let some be disabled and not all? You either give everything or deny everything in this case. I don't see any financial sense in valve giving everything to people who don't enjoy cosmetics.
+19 : I bought lots of csgo skins worth over 700$+ (rough estimation) for far far less than a dollar. I was really shocked when this happened and i started to jump right in but never the less i would expect valve to apply a rollback to this since this is just a huge huge mess for them to deal with.EDIT:Here's the proof if anyone ask'shttp://i.imgur.com/EUOkWmy.png
+20 : lol valve has done more to hurt their public image in the eyes of steam and dota users alike in the past year than their entire history before.even the autistic valve circlejerkers and idolizers have had enough of their shit.10 million tops. and i bet my LIFE on itthey are literally asking for $45 MILLION for a webcomic about axe. its amazing to see how fall this company has fallen from grace.
+
+Feature 8 : "spurs" (Appears 14 times controversiality 2 not controversiality
+Examples:
+1 : I disagree. If the spurs dont make it,  the well rested rockets or gsw will def take out lac.
+2 : yea yea yea the spurs never lost a game for real
+3 : Lmao they literally do the same play every time and the spurs can't figure it out. GG we're out in the 1st round boys!
+4 : how the spurs gonna win a championship one season, then with the same players can't beat a team with no bench?hahahha
+5 : Okay. People would also argue that the spurs have been better the whole series. Your point is invalid
+6 : I only want the spurs to lose because of how unreasonable the fans in these comments.
+7 : Considering how vociferously spurs fans were cheering hack-a-jordan, the  squandered lead brings a smile to my face.
+8 : Well this game wucked, refs were bad and the spurs just plain sucked.. ginobili needs to GTFO, and hopefully Leonard decides to hit his shots on Saturday
+9 : Clippers get about 7 bad calls/no calls in their favor in the first half but no one says shit since the spurs didn't draw attention by throwing hissy fits.
+10 : so it looks like the hacking really paid off. stars in foul trouble so the clips run right back in vs spurs back ups. not only was it boring, it was ineffective, woohoo!
+11 : Man why the fuck would you need to artifically ice Jordan, in addition to him just being shitty and doing hack-a-jordan. God damn the spurs would kill a baby if it would help them win, they do not give a fuck.
+12 : He is usually guarding Paul or Reddick who are both really good 3pt shooters, so naturally he wants to go over them so he can try to contest a shot of the pick. Lots of moving screens tho, but I'm just a salty spurs fan
+13 : You're right, I doubt your fellow spurs fans has watched any games from this series. Comments like that are so dumb. Of course he's watched it. Just because you disagree with what he's saying doesn't mean he didn't watch it.
+14 : The players on the spurs are not particularly good and there's nothing he can do to fix that mid series. Their allure is that they don't have very many good players and yet they still manage to win. Their best player is like 39 and playing 35+ per night. The whole team is looking like fools gold right now
+
+Feature 9 : "na" (Appears 16 times controversiality 7 not controversiality
+Examples:
+1 : Tsm has always been a strong na team but honestly na used to be a joke . And outside tsm and c9 it's still a bit meh
+2 : imagine na without imports. i know, what a shit show, right?
+3 : best team in the world destroys tier 2 na team, who wouldve thought
+4 : ...savior of na cs... loses second map 16:3...
+5 : Yan ang problema ng ibang tao.Tinulungan na nga, di pa marunong magpasalamat. May kakulangan man ang presidente natin, may nagawa din naman siya.
+6 : Ang nakapag save daw sa buhay ng anak nya eh ang activists group na Migrante. Potangena na brain wash na ng mga militanteng group, katulad nung magulang ni Jennifer Laude
+7 : "Na has no talent" "rip na talent pool" well doesnt this just prove that USA produces more talent than any other country between the two regions? USA talent pool &gt; all other countries, confirmed.
+8 : Aj daj sad, ja sam protiv vjeronauka as much as the next guy, ali sori ovo boldano je debilna izjava. Koji to self respecting ateist/agnostik salje dijete na vjeronauk zbog "preporuke osoblja"? Pa nece mali crci ako 45 min provede u knjiznici, ili skolskom dvoristu
+9 : not even in EUW LCS? do you understand that being top team in euw is way harder than in NA? the 2nd place in NA was a crappy team that was on a slump the entire split, if euw and na played all together places between 2nd to 6th would probably be all european (and even TSM... i wanna see MSI =o)
+10 : so its called international, na only got relevant after season 4 when imports started happening and your best player was from eu.just funny how na wasnt relevent for 3 years until they get imports. im not saying na as a region is bad, im saying actual na players are bad, and how can you argue with that
+11 : Najviše me boli što većina populacije jesu windows peasants koji zaista razmišljaju tako. Svojoj frendici pokušavam pojasnit da prokletu DoTu može i na linuxu igrat, ali je tvrdoglava i neće. Ali zato kad odem do faksa i vidim ljude sa Debianima, Ubuntuima, OpenSUSEima I feel all warm and fuzzy on the inside.
+12 : &gt;“Zbrinjavanje djece prepušteno je školama, pri čemu im za taj rad nisu odobrena nikakva sredstva. Sve ovisi o dobroj volji osoblja. Djeca ili idu u knjižnicu ili su prepuštena sama sebi. **Ovako se pojačava ionako snažan pristisak na roditelje da upišu djecu na vjeronauk jer im to preporučuje i školsko osoblje**”, stoji među ostalim u pismu MZOS-u koje je u ime Centra za građansku hrabrost potpisala Nada Topić.
+13 : Daming nagaaway dahil hati ang opinyon nila sa kung sino ba ang tumulong. Hindi ba pwedeng lahat ay nakatulong? Si pnoy, taongbayan, etc. kasi in the first place hindi naman papakinggan ni widodo ang opinyon ng mga pilipino eh, pakialam nya sa nararamdaman mo? Unless na lang kung may power ka kagaya ni noy. Oo last minute ang pag ligtas kay mary jane, pero mas mabuti na yun kesa mabitay sya. At the end of the day, yung mga kasama nya nabitay, sya nakaligtas, magpasalamat na lang tayo sa lahat.
+14 : Isso, vamos jogar tudo no lixo e voltar ao início do séc. XX, quando não tínhamos essas baboseiras e os ~~patrões podiam explorar livremente os trabalhadores em regime quase escravo~~ trabalhadores tinham a "liberdade" de se subeterem à condições subhumanas de trabalho, para que assim pudessem "vencer na vida" por meio do trabalho duro!ABAIXO À CLT!!! NÃO MAIS DIREITOS TRABALHISTAS!!!/sEdit: eu não falei que a CLT é maravilhosa e perfeita, conheço muito bem as falhas dela, mas antes CLT do que deixar que as empresas explorem livremente os funcionários como ocorria antes dela. Esse post foi uma piada com p exagero do OP, se acalmem.
+15 : Moje dvije lipe: mislim da 'crna' statistika o omjeru računala i djece uopće nije važna. Ono što je važno, jest činjenica da se stalno guraju Windowsi i Office, a za to je krivo Ministarstvo kao i očito neuki profesorski kadar. Da nisu u pitanju skupi ugovori Ministarstva s Microsoftom i da imamo imalo bistrije profesore na ta, u prosjeku osam godina stara računala, se davno mogla instalirat kakva distribucija linuxa na kojoj bi se moglo proći svo gradivo srednjoškolske informatike i više, po mogućnosti i naučit djecu kako se instaliraju operativni sustavi da to naprave i kod kuće, i to bez ikakvog štucanja opreme, a još bi je i bilo lakše za održavati od čemernih Windowsa..
+16 : Ninguem critica quem joga pedra, se esconde atras de mascara, [quebra vidro](http://s01.video.glbimg.com/x360/4131676.jpg), [derruba](http://portal.tododia.uol.com.br/_midias/jpg/2015/02/10/brasil_2_1-352966.jpg) [portao](http://s2.glbimg.com/pYOizTm-wCWe5ajSQ4GqHJQf9k4=/s.glbimg.com/jo/g1/f/original/2013/11/05/alepa_professores_3.jpg), *[provoca](http://veja.abril.com.br/blog/felipe-moura-brasil/files/2015/04/O-ataque-dos-black-blocs-620x413-e1430363756214.jpg)* essa resposta? Ai vem um ator posar deitado no chao pra sair em foto de portal. Porque afinal, ta na moda. Patrocinados por [quem](http://www.folhape.com.br/cms/opencms/folhape/pt/cotidiano/galeria/imagens/Wagner/abril_2015/OK_Protesto-professores-Parana_0129042015.jpg)? E quando alguem vai documentar, [agridem pra censurar](http://www.comerciodojahu.com.br/noticia/1326024/professores-em-greve-agridem-jornalistas).
+
+Feature 10 : "compendium" (Appears 30 times controversiality 0 not controversiality
+Examples:
+1 : I don't have a compendium and I'm not planning on buying one
+2 : Email Valve, i'm sure they'll revise the compendium for your bitch ass
+3 : I don't have a compendium and I don't have any effects.
+4 : no one is buying compendium because Valve ruined their reputation over selling mods
+5 : Actually less profit if they make it marketable. People would have to spend $2.5 instead of like $5 on compendium points.
+6 : Friend sold 2 arcanas for 600 dollars.... he proceeded to buy a Dota 2 compendium for TI that is close to level 1,000. Is he fucked?
+7 : €9.29 for compendium points this year compared to €7.79 (Don't quote me on that, my memory isn't the best) of previous years. Feeling the volvo greed.
+8 : new dota 2 compendium is shit. Why do we need useless music packs and weather effects? Banal repetition of the previous goals of the compendium, nothing new...
+9 : Hahahhahahahaaha.Where are the guys who said tgey would buy the compendium even if it had no rewards just to support the scene?Looks like valve called you guys out.
+10 : its probably going to be in map preference permamently, so most likely for everyone. if they made the desert queue for compendium owners only the queue times would fuck up
+11 : Can someone TLDR this compendium thing? You purchase the compendium to unlock the ability to level up to earn rewards, and the rewards are determined by the kickstarter style total reached by the time TI happens?
+12 : Oh god. Pets? Where does it mention that? In the compendium somewhere? O hope not. I hate the idea. It's just completely pointless, more so than anything, and immersion breaking (mah lore!). I hope the CM will be the first and the last to recieve a pet...
+13 : The compendium is made to support the tournament and raise money for features they could put in regardless of making that much. Valve already makes a killing from the cosmetics, you can't pretend for even a second that they are not making enough to have a huge profit.
+14 : This is way better than DAC and no one has seen the items yet I suspect people such as yourself will buy a compendium once the cosmetics have been revealed and besides the goals for TI4 were also a bit meh for the most part.People want hats and valve is giving people hats.
+15 : Instead of making them non marketable, Why not make them just tradeable?So you can't market them off but you can trade them. That way the compendium owners feel like they have something special from the event and there will always be people that will want to trade away immortals?
+16 : No, fuck you.I'm not giving the fat jew my fucking money, I'd rather give it to some ukrainian pimp trader.If I buy the compendium right now, do I get last year's rewards ? This much money for such effortless cosmetics, meanwhile Pit Lord and Zet still aren't in the game after four years of release. It's a beta guys, lot of happening behind the scenes.
+17 : The items shouldn't be marketable but tradeable and giftable like the Weather effects, it makes the compendium owners feel that they actually own have an exclusive souvenir from the event. It will also probably increase revenue due to the fact that if you don't have people willing to trade with you, you're not getting any immortal / item from the chests.
+18 : It is like they offer a $30 compendium that gets to a higher level...I don't understand the bitching. Your $10 compendium still gets you a bunch of cool stuff. And people are forgetting the random point drops that they did last year plus you can earn a decent amount points from the event. You can easily probably go up 10 levels with investing another cent.
+19 : I actually have no idea why some people are complaining. Buy the compendium to support the international, not buy the compendium for shiny shit. A new map and a slew of immortals, followed by the average stretchgoals from last year. What MORE do people expect? I hate to be that guy but source 2 is coming out, and subsequently a shit ton of custom games and various ingame improvements.
+20 : No it won't. That is already paid for or covered. They have things like a bar, secret shop, tickets and so on.You're extremely delusional if you think Valve comes even close to breaking even. They earn a TON of money on both Dota 2 and the Internationals.Wanting good value for the compendium is perfectly acceptable. I have no idea why some people think that the mere thought of a product from Valve being fairly valued is out of the question.
+
+Feature 11 : "retarded" (Appears 42 times controversiality 7 not controversiality
+Examples:
+1 : So you're the kind of person who upvotes those retarded "Yes." responses to a question with multiple choices.
+2 : Well you posted it on a public sub, so what do you expect? Plus this post is retarded as fuck
+3 : Just because your retarded doesn't give you the right to call other people retarded, retard.
+4 : the worst part is I know it's retarded and I still upvote it everytime I see it
+5 : If you are seriously that retarded to the point that a small thing like the distracts you, you have bigger issues here
+6 : Man, this is a really fucking retarded question..
+7 : Phew! The mentally retarded guinea pigs have sent their representative /u/supercooper3000 to forgive me! :D (jk ofc)
+8 : Just call her a retarded cunt and be done with the conversation.
+9 : thanks for posting this, it's been too long since i've read some retarded bullshit.
+10 : Isn't 50 Tyson that retarded rapper?
+11 : Oh look, a retard that doesn't even play DotA 2 commenting on shit and showing just how retarded HearthStone players can be.
+12 : &gt; There's no other way for price to go but up if we all use it.What? Where do you people come up with this retarded shit?
+13 : I'm telling you Man Utd and a summer transfer window just don't go well. We are the most retarded top club in the transfer window.
+14 : I hate Bernie but I guess its because they want to show solidarity with Hillary. Regardless, they're all fucking retarded over there anyways.
+15 : So what's going to happen with tothebestof.com? Aren't these retarded copyfags realizing that such a website in fact brings them customers instead of taking them away?
+16 : Shootings. See, they have this retarded law which allows guns to be everywhere. Last year there were about ten shootings in Germany, and 45,000 in the USA. Clever law that..
+17 : Uh, you are pretty much retarded if you actually believe that. A riot is about the last thing any agency wants to deal with. Extremely dangerous and costly for everyone involved.
+18 : Squenix, in their attempt to "alleviate" the RMT problem, decided to put those archaic retarded systems in which actually do nothing to slowdown RMT but really annoy every player.
+19 : &gt;They are warned that EU law makes it illegal to link to pirated films and television shows.God, I'd forgotten this. I can't believe how retarded it is to make it illegal to link to content like that.
+20 : You know what's really fucking funny here is that you're trying to act clever  and, indeed, 'holier than thou'But in actuality you're just completely proving his point by saying such a retarded statement
+
+Feature 12 : "apple" (Appears 26 times controversiality 18 not controversiality
+Examples:
+1 : i did not forgot it - i read the whole apple modding eula.... twice
+2 : nice try apple
+3 : But we can still hate apple can we?
+4 : Actually only $60 because of the -$25 apple pays he workers who make them per watch.
+5 : Well, we are the self proclaimed-champion of Freedom and apple pie. Norway and Japan are not.
+6 : Its just not a fair comparison, I would say the same for many of the products apple puts out.
+7 : &gt; we are the self proclaimed-champion of Freedom and apple pie. The 1950's called, they want their talking points back.
+8 : iPhone? is that apple's phone? an Iphone? that's apple right? the corporation?  Apple? Apple Corp?  I've heard about them...
+9 : I wouldn't bring up apple products and "you get what you pay for" in the same comment. You ARE aware I phones are imported from China, right?
+10 : Take out 65 in fees 30 for shipping with insurance and tracking (stupid if you dont) another $25 for paypal and you make $130 bucks from tying up 400! Those apple watch flips blew man.
+11 : Why the downvotes? I have to agree with this man (or woman). My best guess is people downvoting are the same that would spray paint their apple watch gold. You don't make gold be gold colored... It just is.
+12 : "omg apple is overcharing a product?"What else is new.The way I see it, apple products are for girls. I mean you buy the name, not the technology. Just like makeup and purses, it's not about the function, it's about the name.
+13 : The software in apple is the best! Android is too buggy with time, which then sucks and they're a lot more accessories and apps for Apple than android. So having an apple and making it look and act like an android is perfect!!!
+14 : But you need an iPad Air 2 for that. The first gen iPad Air crashes all the time because there's not enough ram available. It's really not like apple doesn't have its own problems and I'm saying that as someone who owns a bunch of Apple products.
+15 : It can cost $1 and be horrible products (not saying that they are) for all people who buy apple products care, they are buying the brand its the reason they are shelling out that much money. Its as if these articles are trying to shame a company for using basic economic principles on a "luxury" item.
+16 : Yeah, the state of mac support is terrible. To be fair though apple did this with it's "exclusivity" and extreme prices for underperforming hardware. If people bought macs on a slightly higher scale, besides the rich and stupid, or the people who don't care, it'd be more than 10% of the gaming community.
+17 : Imagine a small pizza, where all the toppings are pepperoni. Now imagine another pizza that is 10 times larger and is 1/4 pepperoni, 3/4 spinach. There is still more pepperoni on the second pizza than on the first, even though it is a lower percent.Now replace spinach and pepperoni with apple and pebble, and pizza with sales.
+18 : I live in Baltimore and I guarantee you **ABSOLUTELY** nothing would have happened. A lot of people don't know this but if you live in Baltimore city and you get stopped by the bad apple cops and you have cash on you. They actually ask you if you want to keep your money or get arrested (for a bogus charge). Thats how fucking bad these guys are!
+19 : Pebble is mediocre to the apple watch aside from charge holding ability and price. The iwatch is much more capable. That being said, I own a pebble, dislike apple products out of accessibility issues, and refuse to buy a new phone and a watch at around/over $1000.My pebble will attempt to prove itself this august when the reason I bought it 3 years ago comes up. It proved it didn't like my iphone for what I wanted the pebble for, I have since switched to droid.
+20 : I'm really curious about why they keep releasing shit for iphones. They hopefully know their customers better than I do, but in my experience people who play D&amp;D are usually more sensible and aren't into getting the latest and greatest flashy and expensive phones. Has this been anyone else's experience as well?Edit: Are the downvoters apple fans? If you are please just respond rather than downvote, since I'm genuinely interested in finding out if there are a lot of D&amp;D players that have iphones.
+
+Feature 13 : "downvoting" (Appears 56 times controversiality 10 not controversiality
+Examples:
+1 : I haven't been downvoting you, m8.
+2 : Is this satire? I can't tell.Edit: stop downvoting me you trolls and give me an answer. I seriously can't tell!
+3 : Get the fuck out of our sub you downvoting troll
+4 : Bulls fans don't like Dunleavy, either. I'm not sure who is downvoting who.
+5 : I'm downvoting you because I disagree.
+6 : Lol who is downvoting you
+7 : Why are people downvoting this? It's a genuine question seeking explanation.
+8 : If you are following this crap, buying it and downvoting it, you are a bigger douche than he is.Sit down, Marks.
+9 : Thanks for downvoting me because I was saying that you offended me a little. You're a dick.EDIT: Grammar correction
+10 : I can use the cash to by a new mouse.Mine is worn out from downvoting you all the time, bro.
+11 : no ones reading what i write they just downvoting by name
+12 : I think the mods are downvoting you. Inb4 [deleted]
+13 : Loving the dumb right-wingers downvoting sensible people here now too.  Lotta troll leakage from /r/Australia lately.
+14 : That's true, but the fans of the 29 other teams have been downvoting because of flair this entire series.
+15 : Stop downvoting everyone who disagrees with you you pussy.
+16 : And people were downvoting me yesterday for saying Alch is still garbage, saying he got all "indirect buffs" that makes him godlyHAHAHA
+17 : I have a group of people who follow me around on this Reddit downvoting my posts.. Nothing new! :-pbut yes, word economy is a good term!
+18 : From what I can tell it's a pretty even split of people disagreeing with people and downvoting people so their own comment/post is higher.
+19 : Good night, sweet prince.EDIT: To the people downvoting me, it's s Shakespeare reference.  It's said as a sign of respect when the main character passes away in Hamlet.
+20 : A lot of people  usually refer to it just as "the city" or SF. We'll say the full name to people that may not understand the reference SF.stop downvoting me, you tourists
+
+Feature 14 : "irrelevant" (Appears 28 times controversiality 6 not controversiality
+Examples:
+1 : Talking about results that are completely irrelevant now is a great way to make an argument
+2 : Ever think of how irrelevant your tattoo will be in 25 years?
+3 : saigon jokers never forget.gaming gear eu never forget.c9 was irrelevant in this new meta. ENJOY
+4 : Bucs and Winston were built for each other. Irrelevant player for an irrelevant team. A match made in heaven.
+5 : Doesnt change the fact that eu has been irrelevant in international tournaments for the last 1 year or soo.
+6 : That made zero sense. Use actual examples instead of "this thing" next time.Plus your conclusion is entirely irrelevant to my point.
+7 : Hell the Spaniards raped these people until they believed in this nonsense... Oh well... These irrelevant nations are poor and proud of their own choosing...
+8 : My thoughts exactly. It really was irrelevant and uncalled for. But I think that was the point, the person who posted Wong seems like a kind of Facebook troll.
+9 : It wasn't assumption it was an outstanding offensive line and an all star running back the titans have none of those things and will remain irrelevant mark my words
+10 : Although nothing you write is incorrect, you're not answering my question and you're stating things that are irrelevant as well as mentioned in other responses already.
+11 : &gt; It's almost as if they were massacred in any area the European settlers wanted for themselves...That's a pretty good point, but fortunately an irrelevant one today.
+12 : Which is irrelevant considering that the goal of austerity is to achieve a balanced budget from which investing into growth is possible, not to create growth in the first place.
+13 : It really depends on what he ACTUALLY told the investigators, hopefully they would have recorded it. What he tells the media on the streets of Baltimore in front of his peers is kind of irrelevant in my opinion.
+14 : Dude, I'm on your side. What happened just now was wierd as fuck. Everyone here thinks you're just saying random irrelevant things.Everybody it's okay. Vinesauce is the youtuber who posted the gta video. I figured that out and I knew nothing about it.
+15 : At this point people are just trying to shit on Roman. Give it up, the guy lost at WM and is currently irrelevant when it comes to the title picture. Hell they're even taking the time to build him up. I didn't mind him winning the rumble and I'be enjoyed most of the stuff he's done post-rumble.
+16 : I think you fail to understand the point of the statement. If you are in debt you owe more money than you have, the fact you have managed to come up with some kind of payment plan with your debtor is irrelevant to the statement. You have no disposable income because the income you have is less than your debt.
+17 : Thanks for the warning.I was observing the fact that the Russian state is descending in to a black hole of manipulation and lies but then I remembered its someones opinion of this development I should be worried about.Good job keeping your eye on the ball. We wouldnt want to be distracted by irrelevant nonsense.
+18 : says spike lee, irrelevant since "do the right thang"also, i don't like spending $16 a ticket to see a movie, $20 on popcorn and a medium diet coke, sitting next to asshats on their phones (or sitting next to people i don't want to sit next to at all), and if i have to piss i miss part of the movie.  (then double the cost if you go with someone else)no thanks.
+19 : System performance is not an argument - - the mere presence of a card is irrelevant in that sense. Storing apps and other often accessed system data on it can cause the problems outlined, but MP3s and videos definitely wouldn't, that's absurd. It's ridiculous to assume that this would be the case (apps and system data) since that's just not how Android is set up.
+20 : It's irrelevant what I think, but I do know that [the Naval Base Commander thinks he requires an explosives safety policy](http://www.nti.org/gsn/article/lockheed-group-to-manage-uk-nuke-installation/) to govern outsourced and non-government actors interactions with them. I'd like to see Westminster OK that proposal if these nukes were housed underneath parliament.
+
+Feature 15 : "country" (Appears 198 times controversiality 59 not controversiality
+Examples:
+1 : 3 races in one country isn't going to happen any time soon.
+2 : It is in Canada, which is the largest country in North America :P
+3 : Ahh yes, a country where their natural accents naturally fade in and out into American accents mid-sentence?Classic.
+4 : one is a citizen of your country and the other isn't. thats the difference.
+5 : I like how there is data for Western Sahara, Greenland and Syria, but not China, the biggest country in the world.
+6 : Im surprised that this country rap is liked on this sub, all I hear is a more lyrical kid rock.
+7 : &gt; charging you a years salarySpeak for your own country please.
+8 : but it's ok for you to generalize an entire country as racist.
+9 : and maybe the right call for our country too
+10 : Or less harm, by not pushing a liberal agenda on a country with very traditional values.
+11 : Then name a country that isn't racist
+12 : Yeah, but that's what Islam did to every country that it exists in currently. Not passing judgement, but just saying.
+13 : I wouldnt call Iran a rich country even less in the same sentence with Saudi Arabia
+14 : Oh okay problem fixed. The president is black, so the country wasn't built off of racism.
+15 : He doesn't know what he is talking about. even a small country can destroy bitcoin for the moment.
+16 : This is reddit dude. The USA is the most evil, fascist country ever to have existed.
+17 : Seriously, they cut off the second largest country in North America with these maps.
+18 : Well you never keep anyone as a super USA Patriot (tm) if you teach them all the horrible shit your country has done.
+19 : So, which oil country are you from?I'm guessing Saudi.
+20 : State one African country that was better before colonisation and worse after.
+
+Feature 16 : "people" (Appears 3001 times controversiality 1350 not controversiality
+Examples:
+1 : Well people voted for Dela over Joslyn last season. And LOLOLOLOL it's not going to be Fame.
+2 : Sadly people have been using his quotes out of context to justify their terrible actions.
+3 : She might consider running for office. You would be surprised how many people are fed up and would vote for her.
+4 : &gt; there are some people who aren't fit to be on a jury.You don't say.
+5 : Dude fuck off I'm 27 and people still call me a kid.
+6 : Thank you for this, I agree completely and am sick of people missing this point.
+7 : Which is all fine and well, but don't turn around and bitch if people misgender you or don't use your pronouns.
+8 : This has been stated before by fans.  In fact ever since Portal 2 came out, people have been saying it.
+9 : I hate how some people group all Americans into a group and say that we all do one thing.
+10 : Weird. The vast, vast majority of people who I see slut shaming are men.
+11 : I believe women and old people should not even have had the right to vote anything in this matter.
+12 : Don't worry about that, you aren't going to have that many people support your campaign anyway.
+13 : It's not sad. It's on purpose. The state will only propagandized young people with pro-state lessons.
+14 : 1 million / 5 people / 4 years = $50,000/year. That's not that much.
+15 : Some people like to wear two condoms too, it's just a thing.
+16 : You know, not all people are 24/7 browsing reddit.
+17 : Imagine that multiple people share the same opinion, shit...
+18 : You act like people don't develop their own opinions.
+19 : I always have fun watching people struggling to convince themselves and others that the prequels are good
+20 : Coming from the people who want to violate a woman's bodily sovereignty and her choices, okay. (Just saying).
+
+Feature 17 : "movie" (Appears 147 times controversiality 65 not controversiality
+Examples:
+1 : This is exactly why you *need to watch the goddamn movie*. The show is fantastic *with the movie ending*.
+2 : This movie was a sleeper
+3 : You do realize it's a movie and not reality?
+4 : Saw this at sundance. Funny movie but the end message is weird and seems to come out of nowhere.
+5 : Saw this at sundance. Funny movie but the end message is weird and seems to come out of nowhere.
+6 : People get so defensive when that movie is referenced, I love it.
+7 : Saw this at sundance. Funny movie but the end message is weird and seems to come out of nowhere.
+8 : Ok,  Up is seriously overrated on reddit. Only the beginning was sad and the rest of the movie was upbeat.
+9 : To quote a famous movie with Islamic themes, 'Nothing is written.'*downvoted for blasphemy?
+10 : Saw this at sundance. Funny movie but the end message is weird and seems to come out of nowhere.
+11 : Saw this at sundance. Funny movie but the end message is weird and seems to come out of nowhere.
+12 : Saw this at sundance. Funny movie but the end message is weird and seems to come out of nowhere.
+13 : Can't believe there is another one coming.   The first one was the worst movie I saw in 2014.
+14 : black johnny storm still doesnt work for me. whats next? a Shaft movie with a white Shaft?
+15 : Steve-O's movie should be called Barely Relevant.
+16 : The movie soundtracks, OR BURZUM, Varg vikernes is great!
+17 : Up,I don't mind if a movie touches my heart once but that damn movie destroyed me TWICE.
+18 : I can't argue your points.  However, you are a grumpy hair-splitting bump on a log.  The movie kicked ass!
+19 : I fucking LOVED it.  Did I watch the same movie everyone else is complaining about?
+20 : we should sic a recent immigrant with amazing martial arts skills and make a movie out of it...
+
+Feature 18 : "downvote" (Appears 87 times controversiality 23 not controversiality
+Examples:
+1 : For me there's nothing like cybernat tears. 1 downvote = 1 cybernat tear.
+2 : another throwaway account another downvote [](/ResidentSleeper)
+3 : The downvote survey.
+4 : Why do u downvote someone with a question? ....
+5 : Cool man. Next time just downvote me and spare me your commentary.
+6 : Its less work to downvote bad comments than argue with stupid.
+7 : Oh, all the Bulls fans have to come over downvote shit again
+8 : Now who would downvote this? I'm sick of reddit
+9 : TW1 plays on a Mac.EDIT:Don't downvote me, it does play on a Mac. Why is this downvoted? Jeeesus
+10 : Who determines what's "overly sensitive?"EDIT: is the downvote because you were offended 😃
+11 : Last free talk friday before the Election, Vote Conservative! (if your going to downvote at least debate your point)
+12 : Well guess i messed up things and got confusedwoo downvote me please
+13 : ^ Every downvote is a fap for STEM.
+14 : Why can't I downvote you??
+15 : If he talks about wrestling, it's fair game.  Don't like it, downvote it or don't read it.
+16 : You did not deserve a downvote for that.
+17 : I booed.EDIT- fine, downvote me. You guys told me to boo no matter what...
+18 : "I'll downvote them! Then they'll HAVE to accept that my intolerance for non-puritanical discussion is correct!"
+19 : CM Punk going over on anybody wasn't believable. Eat shit and downvote me, neck beard peckerheads.
+20 : Can you please downvote me?
+
+Feature 19 : "zeno" (Appears 9 times controversiality 0 not controversiality
+Examples:
+1 : this is a community podcast supported by GGG. having zeno banning ppl on stream for asking questions the comunity wants is totally unacceptable its like GGG banning you immediately for no reason
+2 : Troll? Not at all actually. I dont care about your downvotes. Someone before posted a comment and took it down. I still had it up so i put it back up because i feel things like this should be said. Im sorry your a zeno fan. I feel really sorry for you that your a zeno fan actually.
+3 : Jesus Christ. Calm down. Y'all talk like zeno is the scum of the earth or something. I don't recall being bad at the game or being salty about top 20 racers being a crime. I'm not defending the shit he's done, but you talk as if he's a fucking criminal. Like his crimes are that of an unforgivable child molester. He's just a guy who plays video games. Chill.
+4 : i told him i was a mod for pohx when he started out (for a few months) but i was unmoded because i was very inactive after a while.the first thing zeno said was that i prob abused my power because pohx never unmods hes mods for any other reason. and Pohx even told me i was unmoded for being inactive. zeno acts like such a CoD/Mountaint dew/Doritos/Bro kind of douchebag at times...
+5 : the point is that there's so much support for him, that if he didn't do it in multiple forums, the zeno supporters would have buried it and nothing would get done, regardless of truth, lies, or whining.zeno is big enough that regardless of how he actually behaves, no one would do anything about the negative effect he actually has on the community. it would just get brushed off as "trolling by haters".
+6 : You people got nothing more to do than to permanent blame zeno? Y'all need jesus...On a serious note: why is it your concern? Why are 200people using their precious time to hatemail him? If you dont like him, dont watch him, as simple as that t. Check ziggys youtube vid and go On. This whole "idontlikethisstreamer butthisoneiscool" and thats why I will ground him is disgusting.and Its not just zeno thats been trashtalked.with Backbiting you are in fact far worse.
+7 : Honestly i feel you did not read the post or you are blinded by your love for someone who has actually made people lost interest in joining the game.When people want to join a game they have never played before alot of them will watch streams of it from top streamers. Its a good way to learn and see the game played. When one of the top streamers acts and treats people as zeno does it pushes them away.Its not about a hate for zeno as it is as much a love for the game and want to see the player base grow.
+8 : Dont worry. he thinks he is perfect so its np.I was in hes chat once and we discussed equality (for some reason) in chat and i said that equality we should strive for is the one that ignores the gender of a person and only looks on the result and knowledge (example was used with firefighters, male and females should have the same requirement, you can't be a fireman if you cant slam open a random door, then this job is not for you). zeno whent "real" and talked about hes idea of how to treat women (WOMEN, not people, WOMEN, included hes ex Jenny and talked a lot of shit about her) after this i said i meant to be "real" as well and i told him that i unfollowed him because i found him sexist (but have re-followed him to give him a second chance).this rubbed him the wrong way apparently, as he mentioned it randomly now and then for over 30 min.after hes white knight mods was done circle jerking around zenos opinions and hes mentions, they turned against me and i got banned by the mods. Zeno later unbanned me (after hes stream), so i give him credit for seeing the circle jerking.--------------------------------------%TL;DR%There is something that rubs me the wrong way with zeno, he claim to be such a nice guy and all, but from the outside all you can see a nascar redneck that been in the army and therefor he seem to think of himself as more and better then most, but he won't admit it. and if you see this zeno, i just went real again. do whatever you want with this info, but please take it down a notch, pohx and ziggy is the ones that carry you, once they moved on to other games, you are alone.
+9 : i shall try to reasonably respond in list;a) nope. no one has the right to shitpost, flame, demean, or abuse anyone. it's not right, and is against the TOS of twitch, poe, and reddit, all of it should be deleted, and offenders should be muted or banned. but there's not enough staff to keep up.b)zeno is strong minded, and antagonistic. he can't just respond to antagonism, he must strike back. he is not a professional, he is a "hobby streamer", but expects others to treat him as if he were a professional. ziggy professionalism = emphasis on good things, remove or limit bad things. ghazzy hobbyism = let's all have a good time, play around, and hang out. --- note, i say he isn't a professional because he doesn't conduct himself professionally, to me. this is an opinion.c)he admits that he is not great at the game time and time again, when he feels like it, but then anyone that actually questions it, reads like an affront to his ability regardless of intent, and gets banned/timed out for trolling.d) yeah he actually accused the top 20 of rmt, at one point, once, and then trolls ran with it, and misinformation spread. the point stands that he did actually, accuse people of rmt without evidence, and banned anyone that tried to disagree. that part was his mistake, and the continuation of "ignore or ban all those who disagree" is not helping anyone. most importantly, he's the one most likely to be negatively affected by it.e) ghazzy is on par with ziggy as far as i am concerned, ziggy is the "proper" priest of exile, preaching fun and learning to all that listen. ghazzy is the jester, playing around and just genuinely trying to be entertaining to everyone he can. also good taste in music from both of them.TL;DR no matter what, enjoying the stream is fine, defending things is fine, attacking is not at any point okay, and half of zeno's stream is actually attacking people. the attacking part is what needs to change, not zeno being strong minded, not his personality, just the part about attacking people.if you read all of this, i thank you for your patience. i would like more discussions to be "present points &gt; present reasoning &gt; address previous points &gt; present new reasoning" repeat until conclusion. i would also like world peace and prosperity, but both of those, while possible, are unlikely.to all who pass by this comment, have a nice day.
+
+Feature 20 : "riot" (Appears 61 times controversiality 9 not controversiality
+Examples:
+1 : this is where riot gets their lore from
+2 : if he is signed by riot already then no, cuz riot doesnt like talk shows and even say "u better dont go on talk show"
+3 : It's okay the man shot was white no need to riot put the pitch forks down
+4 : probably will still happen...lets just hope they dont loot and riot because in their eyes they "won"
+5 : If i want to riot ill just go to baltimore.
+6 : I dont understand why the riot police are just standing there for so long. Go do your job and beat their ass.
+7 : /r/ocd would have a riot if they saw this.
+8 : but what about monte? isnt he a riot caster?
+9 : It wouldn't surprise me of they riot and loot in celebration if they're found guilty.
+10 : Taser , riot shield , riot helmet , $300 metrocard , and underwear with a lock and ball chain.
+11 : im sure they'll still find something to riot about
+12 : Yeah, we should riot or something.
+13 : I'm skeptical.  There will still be another riot even if all of them received the death penalty.
+14 : The sad part is that there would have been no charges brought if the riot had not happened.
+15 : LoL client is so bad since not weeks or months, but years.but a new client doenst give riot any $, so no rpio for this at all
+16 : Or, this might sound a bit crazy but just hear me out. How about not having a riot at all and just having a peaceful protest?
+17 : Thanks for the tip, white america. We know you know how to riot much better than black people, given your long and violent history of doing so.
+18 : yea Asians are really racist. Every time there's a race riot in America, the Asians are the ones looting everyone else's stores and protecting their own. oh wait.
+19 : So as a result of the officer's actions the riot ensued.  Do the business owners have any recourse with the BPD?  My gut says no but I'm sure some will try.Edited for typo
+20 : Let's go riot at the auto mechanics shop. Mother fuckers a racist.  You heard. The auto mechanics in Baltimore are clearly racist assholes. Leaving a killer bolt for a black.
+
+Feature 21 : "victim" (Appears 53 times controversiality 5 not controversiality
+Examples:
+1 : Found one!It must be so hard living with that victim complex.
+2 : Woahh dude might as well say the six cops are found not guilty if your gonna describe the victim like that
+3 : People always forget how involved Iran is with terrorism. They may play the victim but they are not.
+4 : I don't disagree with that, but saying women shouldn't walk alone or it's open season is definitely victim blaming.
+5 : These types of cases are always committed by someone the victim knew. BPD knows that.
+6 : I hope you hit a tree and the only victim is you one day.
+7 : LEL, people complaining about victim blaming when it comes to blacks and women, but when it comes to asians its a-ok
+8 : Another victim of old Hong Kong Flu-ey
+9 : My question is if this set the blacks back did the Holocaust set everyone who was it's victim back?
+10 : &gt;People always forget how involved US is with terrorism. They may play the victim but they are not. Goes both ways
+11 : Contestants who played the victim card better than Shirin
+12 : Farage's line of playing the victim in the past few weeks is backfiring.
+13 : when it rains I ask my girlfriend to please drive slowly and be extra cautious.I hope she doesn't think I'm victim blaming
+14 : It's not victim blaming, no one is saying they asked for this.  Simply that it is very stupid not to insure your business.
+15 : Oh, of course, USSR was the greatest victim in WW2 by far. 30 million dead, about 20 million of whom were civilians. Nothing can match that.
+16 : &gt;fat shaming.term invented my tumblr SJW's so they can self diagnose their victim complex's and blame everyone else apart from themselves.
+17 : He is a minor victim of the riots and a major victim to his own lack of business sense. If he had insurance, this would just be some paperwork.
+18 : You needn't worry about Bernie, he's everything Democrats hate. Old, white and male.Essentially he'll become a victim of his own "progressive ideas".
+19 : Didn't claim it was, just saw a lot of Bucks fans playing the victim and found it hilarious.  Dirty play is part of basketball, Dunleavy is just better at it than OJ Mayo
+20 : That's what this bullshit liberal ideology brings, victim hood. The best damn thing that can happen to you these days is being labeled a victim, then you can get away with anything.
+
+Feature 22 : "china" (Appears 9 times controversiality 2 not controversiality
+Examples:
+1 : does china just not give a fuck about anyone but themselves?
+2 : Yes, people are full of shit for accusing china of overfishing. That's why it comes up in the news every month. Because people are jealous of all the awesome fish they are catching!  You're an idiot
+3 : the only things more expensive in china are brand name goods // electronics and milk powder etc, right? &gt;The Chinese system milks everyone as much as it can, so the end result and end product costs morethats called capitalism!!
+4 : winning: we specifically designated our victory terms in vietnam to be search and destroy, ero, more kills = winning, we won militarily, we lost the endgame, but we won the matches before hand. where does it end: i would think it ends at the end of the north vietnamese border, invading china is a really bad time.
+5 : I think a 40 page article with over 80 citations can be considered a pretty complete  analysis.  Its not like the authors just pulled it out of their ass.  And apparently you didn't make it to the second page because it says this applies to both china and russia.  They focused on russia because "it presents the hardest case for our contention that the United States is on the brink of nuclear primacy. It has about 3,500nuclear warheads capable of reaching the continental United States; by comparison, China has only 18 single-warhead missiles that can reach the U.S."
+6 : &gt; Are you sure your solution would make more money to CCPanyone with any knowledge of economics (or have knowledge of CCPs past history of selling cash items) is very sure. i personally CAN afford the cash for many ship skins. i will be purchasing ZERO ship skins for cash out of principle alone. i suspect i am not alone. just because i can afford something and i want it doesnt mean i feel its worth the price. CCP can suck my goo covered space nuts until they lower the price to something more representative of the work put into the product. i can afford their crazy overpriced clothes too! but until they offer something that isnt made in a sweatshop in china for a nickel... i aint buying!
+7 : Why is this a valid position:  &gt; "Are you on the side of working people who would suffer as a result of this disastrous trade agreement, and seeing their jobs go to China or Mexico?” Mr. Sanders said recently. “Or are you on the side of corporate America and pharmaceuticals?”  But this is not?  &gt; "Are you on the side of working people who would suffer as a result of these disastrous immigration bills and executive action, and seeing their jobs go to Indian, Chinese, and Mexican immigrants?” Mr. Sanders said recently. “Or are you on the side of corporate America and big ag/IT?”  Sending jobs to china and mexico = bad.  Letting them come here and do the job = good?  Bernie sanders is in the pocket of Vermont dairy farmers who can't seem to find enough American workers to do the job.  Gee I wonder why?  Nobody wants to spend all day cleaning up cow shit and baling hay for minimum wage (or less)?  How about we let American workers bargain for what they feel is a fair price for their labor and let whatever that price is be reflected in the cost of milk?  And then put tariffs on imported dairy to protect those jobs?  I would be honored to pay $10 for a gallon of milk if it supported a working class American family.  And I would be honored to help working class American families buy milk if they can no longer afford it.  I would be happy to have Scandinavia's social policies if we also had their immigration policy.  I imagine that I'd be deported pretty quickly if I tried to live and work in Norway.
+8 : THe US isnt really unique with its goverement structure.And to answer the dudes question, yes america has some really big problems mostly relating to poverty. The war on crime and drugs was a war on poor people. In 1994 America had more people locked up in jails in absolute numbers than the rest of world combined! (let that sink in because that includes india and china).The american prison-industrial complex is a huge thing with politcal tentacles. Prisoners in America are a trade good, a thing you can earn money with. The more you have of them the more you earn. So dont think about making them ready for society again because you dont want that as a warden, you want MORE prisoners since than you earn more money! It's an endless vicious cycle with no end in sight and mostly it preys on the poor.The whole dont see america as 1 country thing is something americans standard say to defend themselves. They dont realize alsmost every country exists from multiple area's or districts. The incarceration rate in america is really sick high, higher than regimes with a dictator, higher than countries that have "no freedom".http://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rateAlmost TWICE as much people in jail on 100.000 as in Russia.....TWICE. And russia is a dictatorial state. So america does count as 1 country, and yes the prison system in america is sick and for profit. They have more people in prison than the rest of world combined. They have more people in jail than china has! (1,3bil people vs 300 mil. and the latter has more people in prison).Its the land of the free if you are really really rich. Else it's just the land that really hates poor people.http://en.wikipedia.org/wiki/Incarceration_in_the_United_StatesIn 2011 3% of the entire male population of the US was on probation. 3% of the entire male population!!
+9 : &gt;you completely avoided addressing China's water pollutionI didn't avoid anything.I ignored your comment about China's water pollution as you have provided zero comparison to other nations.&gt;and went straight to very specific examples of per-capita pollution levels in ChinaThese aren't specific at all. These are general greenhouse gas emissions statistics of countries, allowing a direct comparison between China and others.Your water pollution example is extremely specific, though. Why did you choose that overly specific piece of information.&gt;Why won't you comment on China's water pollution epidemic?Because we are currently comparing pollution in different countries and China being polluted in one specific way doesn't make China a worse polluter than others.Why won't you comment on the fact that the US is a worse polluter than China?&gt;Plus, having things like 30 million people living in caves, some 10% of the US's population helps inflate those "energy efficiency numbers" as you can dump China's massive peasant population 47% live in rural villages and farms into their urban populations to really make their numbers impressive, but it only paints a misleading picture at best. Except it doesn't. These people are actually contributing *negatively* to energy efficiency. Meaning that if they wouldn't live in caves and wouldn't rely on subsistence farming but adapt to more efficient and effective modes of living instead, the country would be even more efficient.I love how you pulled more nonsense out of whatever propaganda-list you could find. It's like you have a basket full of clichés you just randomly pull out stuff to bash that evil China. Hilarious.&gt;When your country burns almost as much coal as the rest of humanity combined I can see why they need people like you to constant troll any china thread to post their population diluted "per capita" metrics to desperately repair PR.Hahahaha. Oh man./u/Ameri-KKK-aSucksMan, ladies and gentlemen.Never seen a more desperate China-hating US-apologist on this site before. This guy just literally tried dismissing per capita metrics as "diluted". This guy actually tries to imply that there are better ways of comparing things while completely dismissing reality. He also failed to provide a single argument on his behalf and tried citing a random article on water pollution in China as some sort of evidence in a conversation comparing countries to each other.I completely rest my case.This is the kind of people you can find everywhere on this site.
+
+Feature 23 : "baltimore" (Appears 6 times controversiality 2 not controversiality
+Examples:
+1 : The president even called the baltimore looters thugs, so apparently the president is racist too.
+2 : Im surprised new orleans is on there. But yeah my info was outdated, still way too high on the list for people to be like "omg baltimore is breaking bad!" when theyve had more gun related homicide then like all of europe in the past decade.
+3 : I think the people in the U.S allow the police to be out of control. The only people who are actually acting against police brutality are the rioters and the majority of the US hates them. As if the police gives a single fuck about a peaceful protest. As if reddit knew about the protests in baltimore until the riots broke out.
+4 : ... baltimore is 65% black. has a black mayor, 9/15 city council members are black. They have a black police commissioner. Haven't had a republican mayor since the 60s, and only two republican governors. The police force is 50% black. The city of baltimore resides in one of the most firmly democratic states in the nation. They have the political voting power to effect change, and whites do not hold all the positions of power. When can the be held accountable for their own woes? Outline the criteria that you require for it to no longer make it white people's fault.
+5 : The infiltration that avowed white supremacists have achieved on the most frequented communities on this website is astounding. I mean, I'm not surprised that this is  in the top 15 posts on /r/all as I write this, because redditors love to think they know best about things they categorically demonstrate staggering ignorance on, such as the baltimore riots. But look at this guy's post history! He quotes and hews to the "14 Words," which is like the fucking lord's prayer for neo-nazi freaks. Do you think he could possibly have an agenda weighing in on this "mom of the year" shit with a joke about how black people don't like being near white people? Could a Neo Nazi *possibly* have any reason to desire such a joke being seen by lots of redditors? Does it frighten you to think about how a mainstream reddit community loudly approved of the message of this photo? It should.
+6 : oh absolutely, but i guess the point i was trying to make was more like we shouldnt be rioting at all, obviously. destroying your own city does nothing but reinforce people's ideas of a low class, thuggish community. the same stereotypes a lot of people work day in and day out to break. at the same time, its unfortunate that this destruction of private property occurs because of peoples misguided beliefs.is the police force in baltimore a little corrupt? absolutely. are people profiled and arrested on a daily basis? once again, yes and its a pattern that needs to end if we can hope to fix poverty.but i think these riots are only happening now because its coming after a mound of similar cases popping up in the news. and people saw ferguson as a very eye opening moment and are choosing to act similarly. the difference is baltimore is not a small, somewhat removed community. its a very large, very diverse city and a lot more people stand to get hurt or have their property destroyed. edit: spelling
+
+Feature 24 : "bullshit" (Appears 112 times controversiality 33 not controversiality
+Examples:
+1 : This bullshit repost
+2 : Some bullshit cop out answer. Waiting for what he has to say when Link staying becomes official.
+3 : Cest effectivement ce à quoi le terme bullshit référait.
+4 : Hahaha, you disprove the bullshit this sub promotes and get downvoted.  Beautiful.
+5 : fear porn, all this climate bullshit is getting out of hand.
+6 : Like what pretentious hipster bullshit
+7 : and yet again, people of /r/osugame tricked into believing a bullshit story, yay for /r/osugame!
+8 : I mean... I wouldn't call bullshit if you said you were twins, but you don't look *that* similar.
+9 : Fucking bullshit man. Clippers whining is bad enough but even worse is that it works on the refs.
+10 : Unless we get over this bullshit we can never grow as a society.
+11 : That speculative bullshit was getting more tired and uninformed the longer it dragged on.
+12 : So a candidate's ability to bullshit his resume and bullshit his interviews?
+13 : what a bullshit goal, Rangers don't deserve to win this game
+14 : Worst thing about this is his pretentious, bullshit title. "Persistence of Memory".  What the fuck does that mean?
+15 : And that reason is Marxist professors making up bullshit definitions.
+16 : Journalists deserve respect? For the amount of bullshit and insulting headlines they contribute to?
+17 : So we're supposed to reply to whatever bullshit you decide to spew out now?  Lol
+18 : Thats bullshit I went on a rant about how pissed I was and have not been banned this far lol
+19 : It is a bullshit rule.  If that is how someone likes to play games, (I do) that's fine but why force it on someone else?
+20 : Because to buy that story you have to believe that Freddy Gray, or any person, would break his own spine for bullshit ride down town.
+
+Feature 25 : "israel" (Appears 3 times controversiality 0 not controversiality
+Examples:
+1 : it is an israeli flag only because past governments of israel decided so, this flag doesn't represent at least 25% of israel.
+2 : so now from a banner that represents only people of jerusalem we switched to a banner that only represents israeli zionists, 75% of israel maybe? why not come up with a banner that represents all facets of israel?
+3 : &gt; Shitty example. India and Pakistan have been fighting over Kashmir for years, even now. Its just small skirmishes now and then, never escalated into a full blown invasion because nukes&gt; Shitty example. Israel was nuclear armed when it was invaded last.It never escalated because nukes and israel still going strongIt's sad that we'll never see a full blown annexation of a country like our forefathers. Nukes suck.
+
+Feature 26 : "travel" (Appears 35 times controversiality 20 not controversiality
+Examples:
+1 : Any chance we can take Mariota here? You know, with time travel or something.
+2 : you can technically call a travel on most plays if you slow it down
+3 : ill take it as a makeup call on Blake getting called on that travel in the last when they rarely call that
+4 : It's not a travel stop bitching you idiots. Find another excuse. He didn't have the ball under control.
+5 : Get a prosititute that likes to travel in exchange for blowjobs
+6 : No foul call, no travel call. Evens out.
+7 : Uncalled travel ruined the end of the game
+8 : Can't wait to see they didn't call that travel tomorrow. Thanks NBA!
+9 : Lol ref staring right at Crawford's feet as he does the most obvious travel you could ask for.
+10 : Got it. Yeah I'm a full time engineering consultant so I shoot while I travel for fun.
+11 : For the record clippers fans, that uncalled travel on crawford is when a call really does decide a game
+12 : No travel imo
+13 : Yeah, because top players are tripping over themselves for the chance to travel all the way to Alberta, Canada, for a PM major.
+14 : Literally. If Cuban refugees make it to the shore, you're now an American. If you can travel 100 miles by boat for Murica. I say you get Murica freedom.
+15 : So because you got dragged around as a kid and others can't afford to travel around the world, their opinions are less valuable than yours? Travel is great. It's also expensive and not feasible for many.
+16 : Well, not really. It's not a travel that gives you an advantage in any way, unlike on a drive or something, so it doesn't really matter. They don't call travels that don't provide a positioning advantage.
+17 : I agree with that, but shyvana is a fucking dragon and hecarim is a horse. When I ult with shyvana I'm supposed to feel majestic but... I just don't. Whereas hecarims a pony and he can push people away with e? and travel more distance and fear with ult? comon
+18 : Maybe they could have a "you're trapped in your own dreams" arc.  All of the straw hats except one fall into vivid dreams, where they had all accomplished their goals, and the guy who was left behind has to travel into the dreams, convince them that it isn't real, and find a way to beat the guy.
+19 : We will eventually. Unless it is scientifically impossible to advance (technologically) to a point where intergalactic travel is possible, we will do it. There's trillions of planets out there, and even given the droopy statistics that caused our planet, given the sample size it'd be incredible if we were alone
+20 : I work for a company that builds CCD detectors and we supplied the detectors for the manned space shuttle repair missions to Hubble. I can assure you that space travel is real.Literally millions of people have played a direct role in making space travel possible. It is absurd to suggest that there is even a hint of deciet.
+
+Feature 27 : "arrested" (Appears 68 times controversiality 6 not controversiality
+Examples:
+1 : Rather than arresting the cops they arrested the guy who filmed them, nice job America!
+2 : All you reddit people are such bitches!!! Crying because a guy was arrested makes no sense y'all are such pussies
+3 : If your father/mother/sibling was arrested and murdered in a police van would you have the same opinion?
+4 : He was arrested 18 times.......
+5 : He was arrested specifically for physical assault actually...
+6 : just get arrested in the different jurisdictions and you'll find out
+7 : Lol. Don't you hate when people are arrested before they are convicted??
+8 : I do agree but, that is hard when u been profiled, arrested for bad things, racist acts and w.e.
+9 : Lucky he wasn't arrested for "probable cause" and killed on the way to the station
+10 : Keep your money or get arrested? Seems like a pretty easy choice there. I'd like to keep my money and not get arrested please!
+11 : The guy who was arrested with Gray said that. There's a video of him talking to a reporter about hearing Gray hitting his head.
+12 : So then explain the arrest.  As a 30 year old white dude, I don't get arrested for traffic violations.  I get a warning or a ticket.
+13 : Prison in the United States is a for-profit business. You better believe that people are getting arrested for petty crimes. It's fucked up.
+14 : Such a tragedy, ole Freddie was on the verge of getting his 25th arrest too.  A shame he'll never get arrested in silver hand cuffs to mark the event.
+15 : The interesting pat is how Moore was arrested for 2 hours afterwards and then released with no charges.  That's clear intimidation on behalf of the police.
+16 : Ok, then you would be arrested ha.  "Oh you don't feel like pulling over right now? well that's okay go get yourself some ice cream and then get back to us..."
+17 : If he was arrested with no charge, the story would make a bigger deal of the fact that there was no charge.  So I'm going to call sensationalization on this one.
+18 : Yeah that's been from day 1, but people want to say since he had charges before he doesn't have any rights, so it didn't matter that he was arrested for no reason.
+19 : I love how they're trying to imply it is still police's fault with wreckless driving. If it was their driving, wouldn't the other arrested person be injured as well?
+20 : the article clearly states he had been released from custody. Your post is inaccurate. It should be The man who filmed Freddie Gray video *was* arrested at gunpoint.
+
+Feature 28 : "boarding" (Appears 14 times controversiality 5 not controversiality
+Examples:
+1 : Silly Rangers fans. Capitals don't get called for boarding
+2 : It looked like Boyle got hurt on the play, after that boarding that wasn't called
+3 : Apparently a borderline boarding no call that had no effect on the play. They just wanted the refs help.
+4 : Still boarding but I agree not a headshot.
+5 : Let me put it this way... in Coast Guard boarding team school, we learn that if someone dies/drowns when in our custody, you are responsible. You do whatever it takes.
+6 : yea and most of the long boarding around where I live is a lot safer than the guys at the skate park of what they do on bikes here. maybe San francisco is different story with all those hills though.
+7 : Homosex is a Britisher import, it is not part of awar kulcha. Britisher FCs send their children to public boarding schools which r hotbed of buggery. Also, the Royal Navy, with traditions of rum, sodomy, and lash.
+8 : Fucking bullshit. Should of been a boarding on Nick Backstrom.edit: I am salty. Letting in a gwg goal with 1 second left would make you pissed too. After a 2nd look I don't think that hit is boarding. I just got pissed at the moment. Keep bringing downvotes though
+9 : lol at everyone in /r/hockey saying he turned at the last second, and it was a clean hit.Caps fucking get away with boarding over and over again, guess it doesn't matter which ny team they're playing.  Doesn't matter, playoffs have a different set of rules, lol /s
+10 : That's a boarding call for sure. Boyle was in an extremely compromising position that didn't warrant the need for a hit.That goal shouldn't've counted.Wow. I'm in total awe here.Look at this shit! https://i.imgur.com/0SpVbYQ.jpgNote: I am a ref, and that was a penalty boys.
+11 : It's not much different from Israel in the 90's. Frequent stops were not unusual, with military sometimes boarding buses to identify everybody. It's not oppression, but rather necessary precautions, especially around significant dates. There's nothing terrifying or oppressive about it.
+12 : Yea, looks like he hits him between numbers on shoulder and numbers on back (too close to numbers on back for my liking). This then drives Boyle's head into the boards in a violent manner, which could have easily been a boarding call. I don't think this was a smart move from either player, Boyle not protecting himself in a vulnerable position while staring out into space and Backstrom delivering a big hit when Boyle showed him his numbers all day long. Nearly everyone in this thread is calling it completely 100% clean though, so I guess we are delusional.
+13 : I think it could also be considered boarding (by the rule):41.1 Boarding – A boarding penalty shall be imposed on any player who checks or pushes a defenseless opponent in such a manner that causes the opponent to hit or impact the boards violently ordangerously. The severity of the penalty, based upon the impact with the boards, shall be at the discretion of the Referee.In retrospect, that's very vague...Edit: Guess I should point out I don't think it was a penalty, I was just making the point that boarding and body checking have relatively similar rule descriptions, definitely more so than I remember them being. It makes sense since the penalties are often similar, but the hit could be considered a bit of both.
+14 : First of all - Kirk is not a kid, either when he goes into Starfleet, or when he's thrust into the Vulcan crisis. We're to understand that he's wise beyond his years, and like his dad, is basically fearless. He promises Pike while initially boarding the shuttle that he'll do in 3 years what normally takes a talented cadet 4 - to captain a ship.Consider that in ST the Spock origin scenes alternate with Kirk's. The point there is to establish them as near-equals. But then Kirk bests Spock's Kobayashi Maru test, challenges him at the disciplinary hearing...to me, this is a rushed version of the same dynamic of the original series, where Spock had to be taken down a few notches, over time, to be Kirk's friend and number 1, as opposed to a perpetual scold.Can a cadet become a captain in 36 hours? Sure, and in real life, too. Suppose that Kirk is at the top of his class, is the most senior trained cadet in being a captain (since not every Starfleet officer seeks the most challenging position), and he's easily the salutatorian to Spock's valedictorian. If Kirk is clearly the top student onboard a ship full of cadets, with Spock being the grad student TA, what's problematic about the field promotion?There are at least a few instances in US history, and I would imagine in many countries, of rather dramatic field promotions. It's rare, but it's never contrary to meritocracy.
+
+Feature 29 : "hillary" (Appears 0 times controversiality 0 not controversiality
+Examples:
+
+Feature 30 : "rthathappened" (Appears 0 times controversiality 0 not controversiality
+Examples:
