@@ -12,7 +12,7 @@ This script was inspired by Dave Fernig's script "the lowest form of sarcasm."
 
 The corpus has about 54m posts. I have framed it as a binary classification
 task with uniform class distribution. A logistic regression model scores
-about 72% on unseen data.
+about 67% on unseen data.
 '''
 
 #Parameters
