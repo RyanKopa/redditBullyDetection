@@ -8,7 +8,7 @@ can be found here: https://www.kaggle.com/reddit/reddit-comments-may-2015.
 Required packages: numpy, pandas, sklearn (jupiter notebook for .ipynb)
 
 The redditBullies.py script was my first model developed using csv files I downloaded from the kaggle
-hosted Reddit SQL database.  I used a decission tree classifier model to determine whether a post was
+hosted Reddit SQL database.  I used a decision tree classifier model to determine whether a post was
 considered bullying or not (using its controversiality metric).  This resulted in a roughly __53%__ accuracy
 (*yay for beating random guessing!*).
 
